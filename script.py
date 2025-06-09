@@ -1,4 +1,6 @@
 import random
+import time
+# Dice Roller Game
 a = "y"
 while a == "y":
     
@@ -7,6 +9,7 @@ while a == "y":
     print("-----------------------------------------")
     print("Welcome to the Dice Roller!")
     print("Rolling the Dice...")
+    time.sleep(1)  # Pause for 1 seconds to simulate rolling the dice
     num = random.randint(1, 6)
     
     print()
@@ -22,44 +25,44 @@ while a == "y":
        
         print()
         print("[     ]")
-        print("[  0  ]")
+        print("[  ●  ]")
         print("[     ]")
         print("You rolled a one! So Bad!")
         print()
 
     if (num == 2): 
 
-        print("[  0  ]")
+        print("[●    ]")
         print("[     ]")
-        print("[  0  ]")
+        print("[    ●]")
         print()
 
     if (num == 3): 
 
-        print("[  0  ]")
-        print("[  0  ]")
-        print("[  0  ]")
+        print("[●    ]")
+        print("[  ●  ]")
+        print("[    ●]")
         print()
 
     if (num == 4): 
 
-        print("[0   0]")
+        print("[●   ●]")
         print("[     ]")
-        print("[0   0]")
+        print("[●   ●]")
         print()
    
     if (num == 5): 
 
-        print("[0   0]")
-        print("[  0  ]")
-        print("[0   0]")
+        print("[●   ●]")
+        print("[  ●  ]")
+        print("[●   ●]")
         print()
 
     if (num == 6): 
 
-        print("[0   0]")
-        print("[0   0]")
-        print("[0   0]")
+        print("[●   ●]")
+        print("[●   ●]")
+        print("[●   ●]")
         print("You rolled a six! WOW!😎")
         print()
 
