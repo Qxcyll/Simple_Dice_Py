@@ -5,5 +5,5 @@
 
 ## 👨‍💻 Autor
 
-| [<img loading="lazy" src="https://github.com/Qxcyll.png" width=115><br><sub>Gabriel M.</sub>](https://github.com/Qxcyll) |
+| [<img loading="lazy" src="https://github.com/qxcyll.png" width=115><br><sub>Gabriel M.</sub>](https://github.com/qxcyll) |
 | :---: |
